@@ -1,0 +1,11 @@
+[Unit]
+Description=delorian
+After=network.target
+
+[Service]
+ExecStart=/tuber/delorian.py
+Restart=always
+RestartSec=10s
+
+[Install]
+WantedBy=multi-user.target
