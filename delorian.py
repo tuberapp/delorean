@@ -59,7 +59,7 @@ def look_for_ride(lcd):
     lcd.setCursor(0,0)
     lcd.write('Pimp My Delorian')
     lcd.setCursor(1,0)
-    lcd.write('Looking for a Ride')
+    lcd.write('Searching time..')
     #ride = {'city': 'Seattle', 'name': 'surya', 'state': 'WA', 'weather': '48', 'result': True, 'address': 'example', 'date': '20120101'}
     return req_ride()
 
