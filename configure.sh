@@ -1,3 +1,6 @@
+#You need to get the wifi running first
+#configure_edison --wifi
+
 wget --no-check-certificate https://bootstrap.pypa.io/get-pip.py
 python get-pip.py
 pip install requests
