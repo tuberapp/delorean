@@ -1,9 +1,9 @@
 [Unit]
-Description=delorian
+Description=delorean
 After=network.target
 
 [Service]
-ExecStart=/tuber/delorian.py
+ExecStart=/tuber/delorean.py
 Restart=always
 RestartSec=10s
 
